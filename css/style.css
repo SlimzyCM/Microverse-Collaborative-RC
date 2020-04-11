@@ -13,14 +13,35 @@ body {
   line-height: 1.5;
   text-align: center;
   color: #333;
-  margin: 0;
+  margin: 10px;
+}
+.container{
+  background-color: #EEEEEE;
+  border-radius: 6px;
+
 }
 
 h1 {
   font-size: 4rem;
   margin-bottom: 0;
+  padding-top: 40px;
 }
-
+.img-section{
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+}
+.caption{
+  margin: 10px 10px 5px 10px;
+}
+#sect-h3{
+  margin: 50px;
+  
+}
+.main{
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
 @media (max-width: 460px) {
   h1 {
     font-size: 3.5rem;
